@@ -1,0 +1,9 @@
+Pr[steps<=20000]([]<>[Last,Next]( BalanceTop - BalanceLast < BalanceTop-BalanceNext ))
+
+Pr[steps<=20000]([]( Balance=0 && Balance_ret=0 ))
+
+Pr[steps<=20000]((Blance>0  (Balance_ret > 0 || Balance_ret=0))&&(timestampcontractName?-timestampcontractName! < 24))
+
+Pr[steps<=20000]((Blance>0  (Balance_ret > 0 || Balance_ret=0))&&(timestampcontractName?-timestampcontractName! ≥ 24))
+
+Pr[steps<=20000]([]<>(Balance > 0  (Balance_ret = 0 && sumIn = sumOut)))
