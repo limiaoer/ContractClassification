@@ -1,0 +1,9 @@
+Pr[steps<=20000](Last==0 && Next==2 && Top==1& ([]<>[Last,Next](Balance[Top] -Balance[Last] < Balance[Top]-Balance[Next])))
+
+Pr[steps<=20000](msg_sender==k&&[](Balance_out[k]==0&&Balance_ret[k]==0 ))
+
+Pr[steps<=20000]( msg_sender==k&&(Blance_out[k]>0 -->(Balance_ret[k] > 0 ||Balance_ret[k]==0))&&(userModelStart_time[k]-userModelEnd_time[k]<=1))
+
+Pr[steps<=20000](msg_sender==k&&(Blance_out[k]>0 -->(Balance_ret [k]> 0 ||Balance_ret==0))&& (userModel[k].start.time-userModel[k].start.times >1))
+
+Pr[steps<=20000](msg_sender==k&&day==d&&[]<>(Balance_out[k]>0-->(Balance_ret[k]=0 && sumIn[d]==sumOut[d])))
